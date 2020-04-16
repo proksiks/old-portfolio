@@ -1,0 +1,253 @@
+@media (max-width:1100px) {
+    .slider__info {
+        margin-left: 100px;
+        margin-right: 20px;
+    }
+}
+
+
+@media(max-width: 768px) {
+    .social__body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social__box {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .social__descr {
+        max-width: 100%;
+    }
+
+    .social__list {
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width:425px) {
+
+    .navigation__burger {
+        display: block;
+    }
+
+    .navigation_list {
+        display: none;
+        background-color: rgb(0, 0, 0, 0.5);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 70px;
+    }
+
+    .navigation__list {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        line-height: 22px;
+        border-bottom: 1px solid #f1f1f1;
+    }
+
+    .navigation__link {
+        padding: 10px 10px;
+    }
+
+    .navigation__list:last-child {
+        border-bottom: none;
+    }
+
+    .navigation__link {
+        color: #fff;
+    }
+    .main__body {
+        display: block;
+    }
+
+    .main__left {
+        padding: 110px 0 40px 0;
+    }
+
+    .main__text h1 {
+        font-size: 25px;
+    }
+
+    .main__right {
+        margin-top: 20px;
+        padding-bottom: 70px;
+    }
+
+    .main__form {
+        max-width: 100%;
+    }
+
+    .social__list li {
+        margin-right: 15px;
+    }
+
+    .slider__body {
+        margin-top: 25px;
+    }
+
+    .slider__info {
+        margin-left: 0;
+    }
+
+    .slick-vertical .slick-slide {
+        display: block;
+    }
+
+    .slider__btn {
+        margin-bottom: 35px;
+    }
+
+    .slick-dots {
+        margin-top: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .present__body {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .present__top {
+        padding-top: 20px;
+        margin-top: 20px;
+        display: block;
+
+    }
+
+    .present__img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .present__img:first-child {
+        margin-right: 0;
+    }
+
+    .present__bot {
+        margin-top: 40px;
+        display: block;
+
+    }
+
+    .awesome__advantages {
+
+        display: block;
+    }
+
+    .advantages:nth-child(2) {
+        margin: 20px 0;
+    }
+
+    .advantages {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .card {
+        display: block;
+    }
+
+    .card__body {
+        margin: 0;
+        margin-bottom: 40px;
+        width: 100%;
+
+    }
+
+    .customers__body {
+        display: block;
+    }
+
+    .contact__box {
+        width: 100%;
+    }
+
+    .contact__form {
+        display: block;
+    }
+
+    .contact__form textarea {
+        padding: 10px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+}
+
+@media(max-width:375px) {
+
+    .social__list {
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .social__list li {
+        width: 25%;
+        margin-right: 0;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .slider__text {
+        padding-bottom: 25px;
+    }
+
+    .present__bot {
+        margin: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .awesome__head {
+        padding-top: 40px;
+    }
+
+    .awesome__descr {
+        padding-bottom: 30px;
+    }
+
+    .awesome__advantages {
+        margin-bottom: 20px;
+    }
+
+    .pricing__text {
+        padding-top: 20px;
+    }
+
+    .card {
+        padding-bottom: 20px;
+    }
+
+    .customers__text {
+        margin-top: 30px;
+    }
+
+    .customers_box {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .customers__body {
+        margin-bottom: 30px;
+    }
+
+    .contact__form {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .contact__btn {
+        margin: 20px 0;
+    }
+}
